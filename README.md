@@ -18,7 +18,7 @@ label.grid(row=0, column=1)
 def Draj_Desh(): 
    time_live = time.strftime("%I:%M:%S %p")
    label.config(text=time_live) 
-   label.after(200, digital_clock)
+   label.after(200, Draj_Desh)
 
 Draj_Desh()
 app_window.mainloop()
